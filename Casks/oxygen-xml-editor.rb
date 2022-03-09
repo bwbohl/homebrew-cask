@@ -19,6 +19,8 @@ cask "oxygen-xml-editor" do
       "#{version[1]},#{build[1]}"
     end
   end
-
+  
+  depends_on macos: ">= :el_capitan"
+  
   suite "Oxygen XML Editor"
 end
